@@ -9,7 +9,7 @@ setup(
     author='22too',
     entry_points={
             "console_scripts":"""
-                tarun = tarun.tarun:main
+                tarun = tarun.run:main
             """,
         },
     author_email='wo190810401@gmail.com',
