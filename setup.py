@@ -1,1 +1,17 @@
+from distutils.core import setup
 
+setup(
+    name='tarun',
+    version='0.1.0',
+    packages=['tarun'],
+    url='',
+    license='MIT',
+    author='22too',
+    entry_points={
+            "console_scripts":"""
+                tarun = tarun.tarun:main
+            """,
+        },
+    author_email='wo190810401@gmail.com',
+    description='Extract file'
+)
