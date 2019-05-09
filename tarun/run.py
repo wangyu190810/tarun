@@ -3,11 +3,12 @@ import sys
 
 
 def main():
-    print sys.argv
+    print(sys.argv)
     if len(sys.argv) > 1:
         filename = sys.argv[1]
         extract(filename)
-
+    else:
+        print("tarun file_name")
 
 def extract(filename):
     name = filename.split(".")

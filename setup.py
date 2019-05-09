@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='tarun',
-    version='0.1.0',
+    version='0.1.1',
     packages=['tarun'],
     url='https://github.com/wangyu190810/tarun',
     license='MIT',
@@ -14,6 +14,6 @@ setup(
                 tarun = tarun.run:main
             """,
         },
-    author_email='wo190810401@gmail.com',
-    description='Extract file'
+    author_email='info@22too.com',
+    description='Extract many style file'
 )
