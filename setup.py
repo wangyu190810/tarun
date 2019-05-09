@@ -15,5 +15,10 @@ setup(
             """,
         },
     author_email='info@22too.com',
-    description='Extract many style file'
+    description='Extract many style file',
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
 )
